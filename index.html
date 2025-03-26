@@ -10,12 +10,6 @@
         body {
             font-family: 'Noto Sans SC', sans-serif;
         }
-        .page {
-            display: none;
-        }
-        .page.active {
-            display: block;
-        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -35,213 +29,59 @@
         </div>
     </nav>
 
-    <!-- 首页 -->
-    <div class="page active" id="home">
-        <div class="pt-16">
-            <!-- 顶部横幅 -->
-            <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-12">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h1 class="text-4xl font-bold mb-4">创造独特的字体设计</h1>
-                    <p class="text-xl">专业的字体设计工具，让您的海报更具创意</p>
-                </div>
+    <!-- 主要内容 -->
+    <main class="pt-16">
+        <!-- 顶部横幅 -->
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl font-bold mb-4">创造独特的字体设计</h1>
+                <p class="text-xl">专业的字体设计工具，让您的海报更具创意</p>
             </div>
+        </div>
 
-            <!-- 热门字体 -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <h2 class="text-2xl font-bold mb-6">热门字体</h2>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/400x300?font" alt="字体预览" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">创意手写体</h3>
-                            <p class="text-gray-600">适合海报标题</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/400x300?typography" alt="字体预览" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">现代简约体</h3>
-                            <p class="text-gray-600">适合正文内容</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/400x300?design" alt="字体预览" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">艺术装饰体</h3>
-                            <p class="text-gray-600">适合特殊标题</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/400x300?art" alt="字体预览" class="w-full h-48 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">复古风格体</h3>
-                            <p class="text-gray-600">适合怀旧主题</p>
-                        </div>
+        <!-- 热门字体 -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <h2 class="text-2xl font-bold mb-6">热门字体</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://source.unsplash.com/random/400x300?font" alt="字体预览" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">创意手写体</h3>
+                        <p class="text-gray-600">适合海报标题</p>
                     </div>
                 </div>
-            </div>
-
-            <!-- 模板推荐 -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <h2 class="text-2xl font-bold mb-6">精选模板</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/600x400?poster" alt="海报模板" class="w-full h-64 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">活动海报</h3>
-                            <p class="text-gray-600">适合各类活动宣传</p>
-                        </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://source.unsplash.com/random/400x300?typography" alt="字体预览" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">现代简约体</h3>
+                        <p class="text-gray-600">适合正文内容</p>
                     </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/600x400?advertisement" alt="海报模板" class="w-full h-64 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">产品推广</h3>
-                            <p class="text-gray-600">适合产品展示</p>
-                        </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://source.unsplash.com/random/400x300?design" alt="字体预览" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">艺术装饰体</h3>
+                        <p class="text-gray-600">适合特殊标题</p>
                     </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="https://source.unsplash.com/random/600x400?marketing" alt="海报模板" class="w-full h-64 object-cover">
-                        <div class="p-4">
-                            <h3 class="font-bold text-lg">品牌宣传</h3>
-                            <p class="text-gray-600">适合品牌推广</p>
-                        </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://source.unsplash.com/random/400x300?art" alt="字体预览" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">复古风格体</h3>
+                        <p class="text-gray-600">适合怀旧主题</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
-    <!-- 编辑器页面 -->
-    <div class="page" id="editor">
-        <div class="pt-16">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- 左侧工具栏 -->
-                    <div class="bg-white rounded-lg shadow-md p-4">
-                        <h3 class="font-bold text-lg mb-4">字体样式</h3>
-                        <div class="space-y-4">
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">字体大小</label>
-                                <input type="range" class="w-full" min="12" max="72" value="24">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">字间距</label>
-                                <input type="range" class="w-full" min="0" max="20" value="2">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">行高</label>
-                                <input type="range" class="w-full" min="1" max="3" step="0.1" value="1.5">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 中间预览区 -->
-                    <div class="bg-white rounded-lg shadow-md p-4">
-                        <div class="aspect-w-16 aspect-h-9 bg-gray-100 rounded-lg mb-4">
-                            <img src="https://source.unsplash.com/random/800x600?design" alt="预览" class="w-full h-full object-cover rounded-lg">
-                        </div>
-                        <div class="space-y-4">
-                            <input type="text" placeholder="输入文字" class="w-full px-4 py-2 border rounded-lg">
-                            <div class="flex justify-center space-x-4">
-                                <button class="px-4 py-2 bg-blue-500 text-white rounded-lg">预览</button>
-                                <button class="px-4 py-2 bg-green-500 text-white rounded-lg">保存</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 右侧属性面板 -->
-                    <div class="bg-white rounded-lg shadow-md p-4">
-                        <h3 class="font-bold text-lg mb-4">效果设置</h3>
-                        <div class="space-y-4">
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">描边</label>
-                                <input type="color" class="w-full h-8">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">阴影</label>
-                                <select class="w-full px-3 py-2 border rounded-lg">
-                                    <option>无阴影</option>
-                                    <option>轻微阴影</option>
-                                    <option>强烈阴影</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700">特效</label>
-                                <select class="w-full px-3 py-2 border rounded-lg">
-                                    <option>无特效</option>
-                                    <option>发光</option>
-                                    <option>渐变</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>© 2024 海报字体设计. All rights reserved.</p>
             </div>
         </div>
-    </div>
-
-    <!-- 个人中心 -->
-    <div class="page" id="profile">
-        <div class="pt-16">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-                <!-- 用户信息 -->
-                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                    <div class="flex items-center space-x-4">
-                        <img src="https://source.unsplash.com/random/100x100?avatar" alt="用户头像" class="w-20 h-20 rounded-full">
-                        <div>
-                            <h2 class="text-2xl font-bold">用户名</h2>
-                            <p class="text-gray-600">专业设计师</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 我的作品 -->
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <h2 class="text-2xl font-bold mb-6">我的作品</h2>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        <div class="bg-gray-100 rounded-lg overflow-hidden">
-                            <img src="https://source.unsplash.com/random/400x300?design" alt="作品" class="w-full h-48 object-cover">
-                            <div class="p-4">
-                                <h3 class="font-bold">作品标题</h3>
-                                <p class="text-gray-600 text-sm">创建时间：2024-03-20</p>
-                            </div>
-                        </div>
-                        <!-- 更多作品... -->
-                    </div>
-                </div>
-
-                <!-- 收藏字体 -->
-                <div class="bg-white rounded-lg shadow-md p-6 mt-8">
-                    <h2 class="text-2xl font-bold mb-6">收藏字体</h2>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        <div class="bg-gray-100 rounded-lg p-4">
-                            <h3 class="font-bold">创意手写体</h3>
-                            <p class="text-gray-600 text-sm">收藏时间：2024-03-19</p>
-                        </div>
-                        <!-- 更多收藏... -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // 页面切换逻辑
-        function showPage(pageId) {
-            document.querySelectorAll('.page').forEach(page => {
-                page.classList.remove('active');
-            });
-            document.getElementById(pageId).classList.add('active');
-        }
-
-        // 导航按钮点击事件
-        document.querySelectorAll('nav button').forEach(button => {
-            button.addEventListener('click', () => {
-                const pageId = button.textContent === '首页' ? 'home' :
-                              button.textContent === '模板' ? 'editor' : 'profile';
-                showPage(pageId);
-            });
-        });
-    </script>
+    </footer>
 </body>
 </html> 
